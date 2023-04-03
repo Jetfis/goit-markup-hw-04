@@ -153,6 +153,8 @@ body {
     ),
     url(../images/people-office-min.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   padding: 188px 0;
 }
 .hero_section_tytle {
