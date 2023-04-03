@@ -189,6 +189,8 @@ body {
 }
 .hero_btn:is(:hover, :focus) {
   background-color: var(--button-background-hover);
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /**----SECTION 2--------**/
 .section-two {
@@ -248,6 +250,9 @@ body {
 .section-four-link {
   width: calc((100% - 24px * 3) / 4);
   background-color: var(--background-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .section-four-soc-list {
   display: flex;
@@ -267,8 +272,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.section-four-soc-link:hover,
-:focus {
+.section-four-soc-link:is(hover, :focus) {
   background-color: var(--OCEAN);
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -310,6 +314,9 @@ body {
   background: #2e2f42;
   padding: 100px 0;
 }
+.footer-logo-block {
+  margin-right: 120px;
+}
 .footer_logo {
   display: block;
   margin-bottom: 16px;
@@ -324,12 +331,21 @@ body {
 .footer_logo_two {
   color: #f4f4fd;
 }
+.footer-soc-list {
+  gap: 16px;
+}
 .footer_text {
   width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.footer-icons-container > p {
+  margin-bottom: 16px;
+}
+.foter-social-par {
+  color: #ffffff;
 }
 /**------PORTFOLIO-----**/
 /**------HERO-SECTION-----*/
@@ -402,4 +418,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.footer-soc-icons {
+  fill: #ffffff;
 }
