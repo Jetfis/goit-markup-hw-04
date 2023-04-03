@@ -147,6 +147,7 @@ body {
 }
 /*------------------HEROSECTION------------------*/
 .hero_section {
+  box-sizing: border-box;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
