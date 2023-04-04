@@ -52,6 +52,7 @@ body {
 .header {
   display: flex;
   background-color: var(--background-color);
+  min-width: 1158px;
   border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
@@ -154,7 +155,7 @@ body {
     ),
     url(../images/people-office-min.jpg);
   background-size: cover;
-  min-width: 1128px;
+  min-width: 1158px;
   padding: 188px 0;
 }
 .hero_section_tytle {
@@ -244,6 +245,7 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: #f4f4fd;
+  min-width: 1158px;
 }
 .section-four-list {
   display: flex;
@@ -314,6 +316,7 @@ body {
 /**------FOOTER-------**/
 .footer {
   background: #2e2f42;
+  min-width: 1158px;
   padding: 100px 0;
 }
 .footer-logo-block {
